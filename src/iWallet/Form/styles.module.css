@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    justify-content:space-between;
+    margin: 0.3em;
+    width: 100%;
+    
+}
+.form > input,button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.form > input {
+    background-color: #77efa2;
+    margin:0 0.2em;
+    border-radius: 0.3em;
+    padding: 0.3em 0.67em;
+    font-size: 15px;
+    width: fit-content;
+}
+.form > button {
+    background-color: #db6f54;
+    border-radius: 0.3em;
+    padding: 0.4em 0.67em;
+    color: #fff;
+}

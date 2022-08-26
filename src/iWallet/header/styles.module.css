@@ -1,0 +1,15 @@
+.header {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(240, 241, 242);
+    width: 100%;
+}
+.header_photo {
+    object-fit: cover;
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    border: 3px solid rgb(134, 169, 181); 
+}

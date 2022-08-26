@@ -1,0 +1,51 @@
+.container {
+    border: 1px solid lightblue;
+    border-radius: 0.3em;
+    background-color: #d7e2fe;
+    width: 100%;
+}
+.expend {
+    font-size: 23px;
+    color: #496ac7;
+}
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    padding: 0.3em;
+}
+.list li {
+    border: 1px solid limegreen;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+.name_and_price {
+    border: 1px solid rgb(91, 147, 91);
+    font-weight: 600;
+    color: #7c8396;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+    background-color: #e7d0eb;
+}
+.price {
+    width: 4%;
+    border-radius: 50%;
+    background-color: #fff;
+    color: red;
+    padding: 0.5em;
+}
+.descr {
+    border: 1px solid rgb(115, 193, 115);
+    display: flex;
+    align-items: flex-start;
+    color: #7c8396;
+    font-weight: 600;
+    background-color: rgb(229, 223, 223);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    overflow: scroll;
+}
